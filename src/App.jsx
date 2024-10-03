@@ -7,6 +7,7 @@ import Counter from './Components/useReducer/Counter'
 import Layout from './Components/CustomHooks/Layout'
 import ClickCounter from './Components/HOC/ClickCounter'
 import HoverCounter from './Components/HOC/HoverCounter'
+import Formik from './Components/UseFormik/Formik'
 
 function App() {
   const [show, setshow] = useState(true)
@@ -20,7 +21,7 @@ function App() {
       <HoverCounter></HoverCounter>
       <Counter></Counter>
       <Layout></Layout>
-
+      <Formik></Formik>
     </>
   )
 }
