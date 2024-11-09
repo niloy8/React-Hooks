@@ -8,6 +8,7 @@ import Layout from './Components/CustomHooks/Layout'
 import ClickCounter from './Components/HOC/ClickCounter'
 import HoverCounter from './Components/HOC/HoverCounter'
 import Formik from './Components/UseFormik/Formik'
+import Bubbling from './Components/Evenet Bubbling/Bubbling'
 
 function App() {
   const [show, setshow] = useState(true)
@@ -22,6 +23,8 @@ function App() {
       <Counter></Counter>
       <Layout></Layout>
       <Formik></Formik>
+      <Bubbling></Bubbling>
+
     </>
   )
 }
